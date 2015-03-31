@@ -5,7 +5,7 @@ from datetime import datetime
 ############################################
 #			//TODO
 # - Bugs
-#   + Fix parsing on strings with too extra
+#   + Fix parsing on strings with extra
 #		commas
 #   + Sometimes songs end up in removed AND
 #		in added... no idea why
@@ -25,10 +25,6 @@ from datetime import datetime
 #	+ Figure out how to use grooveshark API
 #
 #
-
-
-
-
 
 
 #################################
@@ -91,6 +87,7 @@ f2.close()
 ###############################
 # 			OUTPUT			  #
 
+# if this output format annoys you, go ahead and change it
 out = open(str(datetime.now()),'w')
 out.write("Removed\n")
 
